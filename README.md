@@ -7,6 +7,8 @@ CEN3031 Group 7C
 	Andrew Zhang
 	Kyle Schneider
 	Lucas Sanders 
+	
+Deployed site: https://cen3031app.herokuapp.com/
 
 This repository holds the development code for the Web App created for the UF Transportation Safety Center during the Fall semester of 2017. 
 
