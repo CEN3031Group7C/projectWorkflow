@@ -71,7 +71,7 @@ As an admin (logged in with an admin account- can sign up with signup/sign in li
 
 Description of Deployment:
 
-The TSE website is deployed through Heroku. Heroku uses automatic deployment and the website is updated based on what is on the master branch of the projectWorkflow github. Any changes to the master branch on the projectWorkflow github will be reflected on the heroku app and subsequently at cen3031app.herokuapp.com. Otherwise, to make changes, create a branch, add the appropriate changes, and merge the branch into the master branch of the projectWorkflow github. The changes should then be reflected automatically on the webpage. For more information, please read 4.3 ( General Instructions for your deployment). 
+The TSC website is deployed through Heroku. Heroku uses automatic deployment and the website is updated based on what is on the master branch of the projectWorkflow github. Any changes to the master branch on the projectWorkflow github will be reflected on the heroku app and subsequently at cen3031app.herokuapp.com. Otherwise, to make changes, create a branch, add the appropriate changes, and merge the branch into the master branch of the projectWorkflow github. The changes should then be reflected automatically on the webpage. For more information, please read 4.3 ( General Instructions for your deployment). 
 Deployment Link
 Live Web Application URL - cen3031app.herokuapp.com
 GitHub (Code Repository) - https://github.com/CEN3031Group7C/projectWorkflow
