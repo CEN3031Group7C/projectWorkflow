@@ -69,7 +69,15 @@ As an admin (logged in with an admin account- can sign up with signup/sign in li
 	* ![Admin Page5](/img/13.png?raw=true "Optional Title")
 	* ![Admin Page6](/img/14.png?raw=true "Optional Title")
 	* ![Admin Page7](/img/15.png?raw=true "Optional Title")
-	
+
+APIS/Attributes:
+	- In this project, we used twitter timeline, google map API key, google calendar, and bootstrap. 
+
+Database:
+
+We are using a Mongo database for the web app. It is located at mlab.com. The capacity is 500mb and it is currently using 16mb. This is the free sandbox database available with mlab. 
+If you want to change out the database, you will need to set “uri” with the new database connection value.  
+You can update this value in your web app in config/env/development.js - https://github.com/CEN3031Group7C/projectWorkflow/blob/master/config/env/development.js
 
 Description of Deployment:
 
@@ -83,6 +91,10 @@ API Keys
 Google Maps API Key: AIzaSyA35fx5-G1qvTKr6SRhPv9q5pLen84nwp0
 We recommend you generate a new key here. 
 
+This web application was built using MEAN.js Version 0.5.0 <http://meanjs.org> which uses Node,js Version 6.9.2, Express Version 4.15.2, Angular Version 1.5.0.
+
+To deploy this project locally, install the above versons of MEANSTACK and the project can be run using "npm start" while inside the desired repository. Navigate to localhost:3000 and the application will appear locally on your machine. 
+
 General Instructions for your deployment:
 
 Your web app is deployed using Heroku. See above for relevant links and login information. Your deployment is currently setup to pull for the GitHub repository. To deploy from a different repository, fork the above github repository, and change the app connected to GitHub in the heroku dashboard to your new forked repository. 
@@ -92,7 +104,6 @@ There are two branches to this GitHub Repositiory: Master and Development. Devel
 If you have someone continue development. They should work on the Development branch and push to the Master when they have tested their code and know it won’t break the deployed site.
 
 The Heroku is setup to automatically deploy what is on the master branch. Therefore, any changes made to the master branch will automatically be reflected in cen3031app.herokuapp.com. If you don’t want automatic deployment, you can change this by going into the heroku dashboard (dashboard.heroku.com), clicking on the project, deploy, and then clicking “Disable automatic deploys”. 
-
 
 
 
