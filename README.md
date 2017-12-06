@@ -69,6 +69,27 @@ As an admin (logged in with an admin account- can sign up with signup/sign in li
 	* ![Admin Page7](/img/15.png?raw=true "Optional Title")
 	
 
+Description of Deployment:
+
+The TSE website is deployed through Heroku. Heroku uses automatic deployment and the website is updated based on what is on the master branch of the projectWorkflow github. Any changes to the master branch on the projectWorkflow github will be reflected on the heroku app and subsequently at cen3031app.herokuapp.com. Otherwise, to make changes, create a branch, add the appropriate changes, and merge the branch into the master branch of the projectWorkflow github. The changes should then be reflected automatically on the webpage. For more information, please read 4.3 ( General Instructions for your deployment). 
+Deployment Link
+Live Web Application URL - cen3031app.herokuapp.com
+GitHub (Code Repository) - https://github.com/CEN3031Group7C/projectWorkflow
+Web Server Hosting Provider - Heroku <dashboard.heroku.com>
+To initiate transfer
+API Keys
+Google Maps API Key: AIzaSyA35fx5-G1qvTKr6SRhPv9q5pLen84nwp0
+We recommend you generate a new key here. 
+
+General Instructions for your deployment:
+
+Your web app is deployed using Heroku. See above for relevant links and login information. Your deployment is currently setup to pull for the GitHub repository. To deploy from a different repository, fork the above github repository, and change the app connected to GitHub in the heroku dashboard to your new forked repository. 
+
+There are two branches to this GitHub Repositiory: Master and Development. Development holds all the code that we are still working on. Master is what is currently deployed on your website.
+
+If you have someone continue development. They should work on the Development branch and push to the Master when they have tested their code and know it won’t break the deployed site.
+
+The Heroku is setup to automatically deploy what is on the master branch. Therefore, any changes made to the master branch will automatically be reflected in cen3031app.herokuapp.com. If you don’t want automatic deployment, you can change this by going into the heroku dashboard (dashboard.heroku.com), clicking on the project, deploy, and then clicking “Disable automatic deploys”. 
 
 
 
